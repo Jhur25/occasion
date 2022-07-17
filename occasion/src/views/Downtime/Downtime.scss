@@ -1,0 +1,95 @@
+// .selected{
+//     display: none;
+// }
+
+.selected .selection{
+    opacity: 1;
+    background-color: transparent !important;
+    stroke: #fbd54d;
+    stroke-width: 1px;
+    stroke-linejoin:round;
+}
+
+
+.selected .handle{
+    opacity: 1;
+    background-color: #ffda0a !important;
+    stroke: #fbd54d;
+    stroke-width: 1px;
+    fill:#fbd54d;
+    height: 14px;
+    transform: translate(0px, 11px);
+    rx: 3;
+}
+
+.main .selection{
+    opacity: 1;
+    background-color: transparent !important;
+    stroke: #fbd54d;
+    stroke-width: 1px;
+    stroke-linejoin:round;
+}
+
+
+.main .handle{
+    opacity: 1;
+    background-color: #ffda0a !important;
+    stroke: #fbd54d;
+    stroke-width: 1px;
+    fill:#fbd54d;
+    height: 5px;
+    transform: translate(0px, 11px);
+    rx: 3;
+}
+
+
+.rectDrag, .circle {
+    display: none;
+}
+.alignLeft{
+    text-align: left;
+}
+.tooltip {	
+    position: absolute;			
+    text-align: left;		
+    width: auto;					
+    height: auto;					
+    padding: 2px;				
+    font-size: 12px;		
+    background: transparent;	
+    border: 0px;		
+    border-radius: 8px;			
+    pointer-events: none;	
+
+}
+.tGreen{
+    color:green;
+}
+.timeFont {
+    font-size: 4px;	
+}
+
+.selectionTime{
+    padding: 10px 10px 0px 10px;
+    box-shadow: 6px 0px 6px #8888888c;
+    margin-left: 55px;
+    margin-right: 80px;
+    font-size: 13px;
+}
+.centerDiv{
+    margin: auto;
+    width: 50%;
+    padding: 10px 45px;     
+}
+.btnInfo{
+    background-color: white !important;
+    font-size: 12px;
+}
+.textColor{
+    color:  #38a317!important;
+}
+.btnClicked{
+    background-color: #4e8bd1bd !important;
+    font-size: 12px;
+    font-weight: 500;
+}
